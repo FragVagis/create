@@ -5,10 +5,10 @@
     <div class="row justify-content-center">
         <div class="col-9">
             <div class="card">
-                <div class="card-header">
+                <div class="card-title categories">
                     <h1>Categories</h1>
                 </div>
-                <div class="card-body">
+                <div class="card-body categories">
                     <ul class="list-group">
                         @forelse($categories as $category)
                         <li class="list-group-item">

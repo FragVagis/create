@@ -18,7 +18,7 @@
                     </div>
                     @csrf
                     @method('put')
-                    <div class="input-group mb-3">
+                    <div class="button-extra">
                         <button type="submit" class="btn btn-secondary mt-4">Update</button>
                     </div>
                 </form>

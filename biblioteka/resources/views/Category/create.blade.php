@@ -15,11 +15,9 @@
                             <span class="input-group-text" id="basic-addon3">Name</span>
                             <input type="text" class="form-control" name="name" value="{{old('name')}}">
                         </div>
-                        <div>
+                        <div class="button-extra">
                             @csrf
                             <button type="submit" class="btn btn-secondary mt-4">Create</button>
-                        </div>
-                        <div class="input-group mb-3">
                         </div>
                     </form>
                     <a href="{{route('c_index')}}" class="btn btn-info">Back</a>

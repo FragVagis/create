@@ -7,9 +7,29 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
+.card-title.categories {
+    padding: 20px;
+}
+
+.card-body.categories {
+    padding: 0px 20px 20px 20px;
+}
+
+.card-body {
+    padding: 40px;
+}
 
 .card.category {
  padding: 20px;
+}
+.btn {
+    background-color: crimson;
+    color: white;
+    border-color: rgb(155, 16, 43);
+}
+.btn:hover {
+    background-color: rgb(155, 16, 43);;
+    color: white;
 }
 
 .buttons {
@@ -26,7 +46,8 @@
         align-items: center;
         margin: 0;
     }
-    button {
-        transform: rotate(1deg);
-    }
+}
+
+.button-extra {
+    margin: 0px 10px 10px 0px;
 }
